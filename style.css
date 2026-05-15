@@ -563,5 +563,79 @@ footer{
   .cta-box{
     padding:50px 30px;
   }
+@media(max-width:768px){
 
+  .navbar{
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+  }
+
+  .nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+  }
+
+  .hero{
+    min-height:100vh;
+    padding:220px 20px 60px;
+}
+
+  .hero-content h1{
+    font-size:2.3rem;
+  }
+
+  .hero-content p{
+    font-size:1rem;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+  }
+
+  .about-section{
+    grid-template-columns:1fr;
+    padding:80px 20px;
+  }
+
+  .metrics-section{
+    grid-template-columns:1fr;
+    padding:0 20px 80px;
+  }
+
+  .news-grid{
+    grid-template-columns:1fr;
+  }
+
+  .news-section{
+    padding:80px 20px;
+  }
+
+  .cta-section{
+    padding:80px 20px;
+  }
+
+  .cta-box{
+    padding:50px 25px;
+  }
+
+  .cta-box h2{
+    font-size:2rem;
+  }
+
+  .footer-container{
+    grid-template-columns:1fr;
+    padding:60px 20px;
+  }
+
+}
+@media(max-width:768px){
+
+  .navbar{
+    background:rgba(15,118,110,0.95);
+    backdrop-filter:blur(10px);
+  }
+
+}
 }       
